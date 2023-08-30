@@ -24,12 +24,12 @@ const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
         </>
       ) : (
         <>
-          <h2 className="font-black text-3xl text-center ">
+          <h2 className="font-black text-3xl text-center text-gray-200">
             No hay pacientes{" "}
           </h2>
-          <p className="text-xl mt-5 mb-10 text-center">
+          <p className="text-xl mt-5 mb-10 text-center text-gray-200">
             Comienza agregando pacientes {""}
-            <span className="text-indigo-600 font-bold">
+            <span className="text-lime-400 font-bold">
               y apareceran en este lugar
             </span>
           </p>
